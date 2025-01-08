@@ -1,0 +1,22 @@
+data:
+  start_date: '2024-1-1'
+  end_date: '2025-1-1'
+  type: ['usd', 'rub']
+
+model:
+  path_to_last_model:
+    './models/latest_rnn.pth'
+  name:
+    'rnn_model'
+  input_size:
+    1
+  hidden_layer_size:
+    128
+  num_layers:
+    1
+  output_size:
+    1
+
+train:
+
+
