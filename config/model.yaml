@@ -1,7 +1,11 @@
 data:
-  start_date: '2024-1-1'
-  end_date: '2025-1-1'
-  type: ['usd', 'rub']
+  start_date: '2024-01-01'
+  end_date: '2025-01-01'
+  currencies: ['usd']
+
+data_prep:
+  seq_len:
+    10
 
 model:
   path_to_last_model:
@@ -18,5 +22,12 @@ model:
     1
 
 train:
+  lr:
+    0.001
+  num_epoch:
+    3000
+
+
+
 
 
