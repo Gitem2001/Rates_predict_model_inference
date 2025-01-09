@@ -1,1 +1,1 @@
-1. pip install docker
+The app for rates predictions for currencies
